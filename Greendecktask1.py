@@ -23,7 +23,7 @@ class MongoAPI:
     
     def __init__(self, data):
         log.basicConfig(level=log.DEBUG, format='%(asctime)s %(levelname)s:\n%(message)s\n')
-        self.client = MongoClient("mongodb://Greendeck_Data:shubham2309@cluster0-shard-00-00.mxt87.gcp.mongodb.net:27017,cluster0-shard-00-01.mxt87.gcp.mongodb.net:27017,cluster0-shard-00-02.mxt87.gcp.mongodb.net:27017/Greendeck_Assignment?ssl=true&replicaSet=atlas-17f95z-shard-0&authSource=admin&retryWrites=true&w=majority") #Creating MongoDB interactor for interacting with database where data is stored.   
+        self.client = MongoClient("mongodb://<UserName>:<Password>@cluster0-shard-00-00.mxt87.gcp.mongodb.net:27017,cluster0-shard-00-01.mxt87.gcp.mongodb.net:27017,cluster0-shard-00-02.mxt87.gcp.mongodb.net:27017/<CollectionName>?ssl=true&replicaSet=atlas-17f95z-shard-0&authSource=admin&retryWrites=true&w=majority") #Creating MongoDB interactor for interacting with database where data is stored.   
         database = data['database']
         collection = data['collection']
         cursor = self.client[database]

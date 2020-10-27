@@ -95,7 +95,7 @@ docker pull mongo
 docker create -it --name <ContainerName> -p 8000:27017 mongo
 ```
 
-![alt text](https://github.com/Shubham-handa/Greendeck_Assignment_Task1/blob/main/Docker_CMD_for_creating_container.png)
+![alt text](https://github.com/Shubham-handa/REST-API-Using-Flask/blob/main/Docker_CMD_for_creating_container.png)
 
 
 ### Start the Container
@@ -116,7 +116,7 @@ docker stop <ContainerName>
 docker-compose up
 ```
 
-![alt text](https://github.com/Shubham-handa/Greendeck_Assignment_Task1/blob/main/Docker_compose_CMD.png)
+![alt text](https://github.com/Shubham-handa/REST-API-Using-Flask/blob/main/Docker_compose_CMD.png)
 
 
 Screenshots of Postman API requests for different methods:-
@@ -124,12 +124,12 @@ Screenshots of Postman API requests for different methods:-
 
 GET Request
 -----------
-![alt text](https://github.com/Shubham-handa/Greendeck_Assignment_Task1/blob/main/GET.png)
+![alt text](https://github.com/Shubham-handa/REST-API-Using-Flask/blob/main/GET.png)
 
 
 POST Request
 -----------
-![alt text](https://github.com/Shubham-handa/Greendeck_Assignment_Task1/blob/main/POST.png)
+![alt text](https://github.com/Shubham-handa/REST-API-Using-Flask/blob/main/POST.png)
 
 
 - In above screenshot we can clearly see that we do not provide any information in classifiation 4 column for particular brand name.
@@ -139,15 +139,15 @@ POST Request
 
 PUT Request
 -----------
-![alt text](https://github.com/Shubham-handa/Greendeck_Assignment_Task1/blob/main/PUT.png)
+![alt text](https://github.com/Shubham-handa/REST-API-Using-Flask/blob/main/PUT.png)
 
 
 DELETE Request
 -----------
-![alt text](https://github.com/Shubham-handa/Greendeck_Assignment_Task1/blob/main/DELETE.png)
+![alt text](https://github.com/Shubham-handa/REST-API-Using-Flask/blob/main/DELETE.png)
 
 
 See the pdf file for more details of CRUD operation
 ---------------------------------------------------
 
-https://github.com/Shubham-handa/Greendeck_Assig
+https://github.com/Shubham-handa/REST-API-Using-Flask/blob/main/Detail_of_CRUD_operation.pdf
